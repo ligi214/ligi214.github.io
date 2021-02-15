@@ -176,6 +176,9 @@ a:not([href]):hover {
   color: inherit;
   text-decoration: none;
 }
+.fa-seedling:hover {
+  color: #9aac69;
+}
 
 pre,
 code,
