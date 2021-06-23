@@ -6503,7 +6503,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  /* background-color: #bd5d38 !important; */
+  background-color: #b09582;
 }
 
 a.bg-primary:hover,
@@ -10488,9 +10489,10 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 30%;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10666,4 +10668,26 @@ section.resume-section .resume-section-content {
   to {
     opacity: 1;
   }
+}
+
+/* ADDED BY ME */
+.education-0,
+.education-1,
+.research-0,
+.research-1,
+.honors-0,
+.honors-1,
+.extra-0 {
+  text-transform: None;
+}
+
+.news {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #bd5d38;
+  font-size: 1.7rem;
+  text-transform: uppercase;
 }
