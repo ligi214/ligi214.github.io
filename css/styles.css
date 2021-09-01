@@ -10514,6 +10514,7 @@ p.lead {
 }
 .social-icons .social-icon {
   display: inline-flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   height: 2.5rem;
@@ -10691,3 +10692,15 @@ section.resume-section .resume-section-content {
   font-size: 1.7rem;
   text-transform: uppercase;
 }
+
+a.publication-link {
+  color: #6c757d;
+}
+a.publication-link:hover{
+  color: #bd5d38;
+}
+
+span.publication-title, span.patent-title {
+  font-size:1.25em;
+}
+
