@@ -10704,3 +10704,10 @@ span.publication-title, span.patent-title {
   font-size:1.25em;
 }
 
+p#intro {
+  font-size: 1.15rem;
+}
+
+div.miscellanies-title {
+  font-size: 1.15rem;
+}
