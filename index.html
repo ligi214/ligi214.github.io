@@ -10,9 +10,15 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <link href="css/styles.css" rel="stylesheet" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -29,20 +35,27 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Seongmin Lee</span>
+                <!-- <span class="d-block d-lg-none">Seongmin Lee</span> -->
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" src="assets/img/profile1.jpg" alt="" /></span> 
             </a>
+            <div id="navbar-name">Seongmin Lee</div>
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/seongmin-lee-8b8a97209/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://www.facebook.com/profile.php?id=100004070796307"><i class="fab fa-facebook-f"></i></a>
+                <a class="social-icon" href="https://twitter.com/SeongminLeee"><i class="fab fa-twitter"></i></a>
+                <a class="social-icon" href="assets/cv/CV_SeongminLee.pdf"><i class="far fa-file-alt"></i></a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Research Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Honors & Awards</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publication">Publication & Patent</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publication">Publication</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Honors</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#miscellanies">Miscellanies</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#extracurricular">Extra-curricular</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#photos">Photos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#extracurricular">Extracurricular</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#photos">Fun</a></li>
                 </ul>
             </div>
         </nav>
@@ -51,19 +64,14 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/seongmin-lee-8b8a97209/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/profile.php?id=100004070796307"><i class="fab fa-facebook-f"></i></a>
-                        <a class="social-icon" href="https://twitter.com/SeongminLeee"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="assets/cv/CV_SeongminLee.pdf"><i class="far fa-file"></i></a>
-                    </div>
-                    <h1 class="mb-0">
+                    <div id="resume-section-hello">Hello, I'm</div>
+                    <h1 class="mb-0" id="resume-section-name">
                         Seongmin Lee
                         <!-- <span class="text-primary">Lee</span> -->
                     </h1>
                     <div>
                         <i class="fas fa-envelope"></i>
-                        <a style="color: #6c757d;" href="mailto:seongmin@gatech.edu">seongmin@gatech.edu</a>
+                        <a style="color: #7f7f7f;" href="mailto:seongmin@gatech.edu" id="resume-section-mail">seongmin@gatech.edu</a>
                     </div>
                     <p class="lead mb-5"></p>
 					<p id="intro">
@@ -72,14 +80,13 @@
                         I received my B.S. in Electrical and Computer Engineering from <a href="https://en.snu.ac.kr">Seoul National University</a> in February 2021.
 						During my undergraduate, I was supported by the <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Presidential Science Scholarship</a>.
                     </p>
-					<div class="news">News</div>
+					<!-- <div class="news">News</div>
 					<ul>
-						<li>I moved to Atlanta in August. Looking forward my new start in America!</li>
-						<li>Three of my papers were published on PLOS ONE in 2021!</li>
-					</ul>
+						<li class="news-item">I moved to Atlanta in August. Looking forward my new start in America!</li>
+					</ul> -->
                 </div>
             </section>
-			<hr class="m-0" />
+			<!-- <hr class="m-0" /> -->
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -89,27 +96,27 @@
                             <h3 class="mb-0 education-0">Georgia Institute of Technology</h3>
                             <div class="subheading p-0 education-1">Ph.D. in Computer Science</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary education-period">August 2021 - Present</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 education-0">Seoul National University</h3>
                             <div class="subheading p-0 education-1">B.S. in Electrical and Computer Engineering</div>
-                            <div>Graduated with honor (Summa Cum Laude)</div>
+                            <div class="education-2">Graduated with honor (Summa Cum Laude)</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2016 - February 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary education-period">March 2016 - February 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 education-0">Korea Science Academy of KAIST</h3>
                             <div class="subheading p-0 education-1">Math and Science Specialized High School</div>
-							<div>One year early entrance, Graduated with distinction in GPA</div>
+							<div class="education-2">One year early entrance, Graduated with distinction in GPA</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2013 - February 2016</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary education-period">February 2013 - February 2016</span></div>
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <!-- <hr class="m-0" /> -->
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -118,79 +125,48 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0 research-0"><a href="https://poloclub.github.io">Polo Club of Data Science</a>, Georgia Institute of Technology</h3>
                             <div class="subheading p-0 research-1">Graduate Research Assistant</div>
-							<p>Advisor: Prof. Duen Horng (Polo) Chau</p>
+							<div class="research-2">Advisor: Prof. Duen Horng (Polo) Chau</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary experience-period">August 2021 - Present</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 research-0"><a href="https://datalab.snu.ac.kr">Data Mining Lab</a>, Seoul National University</h3>
                             <div class="subheading p-0 research-1">Undergraduate Research Internship</div>
-							<p>Advisor: Prof. U Kang</p>
+							<div class="research-2">Advisor: Prof. U Kang</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2020 - February 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary experience-period">January 2020 - February 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 research-0"><a href="https://cml.snu.ac.kr">Communication and Machine Learning Laboratory</a>, Seoul National University</h3>
                             <div class="subheading p-0 research-1">Undergraduate Research Internship and Bachelor's Thesis</div>
-							<p>Advisor: Prof. Jungwoo Lee</p>
+							<div class="research-2">Advisor: Prof. Jungwoo Lee</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - April 2020</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary experience-period">September 2019 - April 2020</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 research-0"><a href="http://oice.t.u-tokyo.ac.jp/exchange/SPreport2018.html">Biomedical Precision Laboratory</a>, The University of Tokyo</h3>
                             <div class="subheading p-0 research-1">Research Internship </div>
-                            <p>Advisor: Dr. Keiichi Nakagawa, Dr. Ayumu Ishijima. Selected as a participant of <a href="http://oice.t.u-tokyo.ac.jp/exchange/Summerprogram.html">ESEP-G</a>(Engineering Summer Education Program-General) of UTokyo.</p>
+                            <div class="research-2">Advisor: Dr. Keiichi Nakagawa, Dr. Ayumu Ishijima. Selected as a participant of <a href="http://oice.t.u-tokyo.ac.jp/exchange/Summerprogram.html">ESEP-G</a>(Engineering Summer Education Program-General) of UTokyo.</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2018 - August 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary experience-period">July 2018 - August 2018</span></div>
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Honors and Awards</h2>
-					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 honors-0">The Presidential Science Scholarship</h3>
-                            <div class="subheading p-0 honors-1">Korea Science Aid Foundation</div>
-							<p>Full tuition and stipend of $5,000 per year. Around 150 students are selected nationally.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2016 - December 2019</span></div>
-                    </div>
-					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 honors-0">SNU Engineering Honor Society (STEM)</h3>
-                            <div class="subheading p-0 honors-1">College of Engineering, SNU</div>
-							<p>Used to be vice president, currently honorary member of STEM.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2018 - December 2019</span></div>
-                    </div>
-					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0 honors-0">Voluntary Service Award</h3>
-                            <div class="subheading p-0 honors-1">Department of Electrical and Computer Engineering, SNU</div>
-							<p>Awarded for greatly contributing to the department and conducting a lot of volunteer activities.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2018, December 2017</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <!-- <hr class="m-0" /> -->
             <!-- Publication-->
             <section class="resume-section" id="publication">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Publication & Patent</h2>
+                    <h2 class="mb-5">Publication</h2>
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-2">Publication</h3>
-							<ul class="fa-ul mb-0">
+                            <h3 class="mb-2">Publication<!-- <i class="fas fa-pencil-alt"></i>--></h3>
+							<ul class="fa-ul mb-0 publication-list">
 								<li>
 									<span class="publication-title">
-									<span class="fa-li"><i class="fas fa-seedling"></i></span>
+									<!-- <span class="fa-li"><i class="fas fa-pencil-alt"></i></span> -->
 									Multi-EPL: Accurate Multi-Source Domain Adaptation<br>
 									</span>
 									<span class="publication-name">
@@ -203,7 +179,7 @@
 								</li>
 								<li>
 									<span class="publication-title">
-									<span class="fa-li"><i class="fas fa-seedling"></i></span>
+									<!-- <span class="fa-li"><i class="fas fa-pencil-alt"></i></span> -->
 									Unsupervised Multi-Source Domain Adaptation with No Observable Source Data<br>
 									</span>
 									<span class="publication-name">
@@ -216,7 +192,7 @@
 								</li>
 								<li>
 									<span class="publication-title">
-									<span class="fa-li"><i class="fas fa-seedling"></i></span>
+									<!-- <span class="fa-li"></span> -->
 									AUBER: Automated BERT Regularization<br>
 									</span>
 									<span class="publication-name">
@@ -232,36 +208,85 @@
 					</div>
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-2">Patent</h3>
-							<ul class="fa-ul mb-0">
+                            <h3 class="mb-2"><!--<i class="fas fa-lightbulb"></i>-->Patent</h3>
+							<ul class="fa-ul mb-0 publication-list">
 								<li>
 									<span class="patent-title">
-									<span class="fa-li"><i class="fas fa-seedling"></i></span>
+									<!-- <span class="fa-li"></span> -->
 									Pruning Method for Attention Head in Transformer Neural Networks for Regularization and Apparatus Thereof<br>
 									</span>
 									<span class="patent-name">
 									<b>Seongmin Lee</b>, Hyun Dong Lee, and U Kang<br>
 									</span>
-									10-2020-0162397, 2020
+                                    <span class="patent-number">10-2020-0162397, 2020</span>
+								</li>
+							</ul>
+                        </div>
+                    </div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-2"><!--<i class="fas fa-book"></i> -->Book</h3>
+							<ul class="fa-ul mb-0 publication-list">
+								<li>
+									<span class="book-title">
+                                    I Got to Wish to Go Engineering School
+									<br>
+									</span>
+									<div class="book-name">
+                                        SNU Engineering Honor Society, STEM
+									</div>
+                                    <div class="book-2">Wrote Part 3 "Life as a Lab Intern"</div>
+                                    <div><a class="book-link" href="http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791129708168" target="_blank"><i class="fas fa-book"></i> Link</a></div>
 								</li>
 							</ul>
                         </div>
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <!-- <hr class="m-0" /> -->
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Honors and Awards</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 honors-0">The Presidential Science Scholarship</h3>
+                            <div class="subheading p-0 honors-1">Korea Science Aid Foundation</div>
+							<div class="honors-2">Full tuition and stipend of $5,000 per year. Around 150 students are selected nationally.</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary honors-period">March 2016 - December 2019</span></div>
+                    </div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 honors-0">SNU Engineering Honor Society (STEM)</h3>
+                            <div class="subheading p-0 honors-1">College of Engineering, SNU</div>
+							<div class="honors-2">Used to be vice president, currently honorary member of STEM.</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary honors-period">March 2018 - December 2019</span></div>
+                    </div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 honors-0">Voluntary Service Award</h3>
+                            <div class="subheading p-0 honors-1">Department of Electrical and Computer Engineering, SNU</div>
+							<div class="honors-2">Awarded for greatly contributing to the department and conducting a lot of volunteer activities.</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary honors-period">December 2018, December 2017</span></div>
+                    </div>
+                </div>
+            </section>
+            <!-- <hr class="m-0" /> -->
             <!-- Miscellanies-->
             <section class="resume-section" id="miscellanies">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Miscellanies</h2>
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Conference</h3>
+                            <h3 class="mb-0 miscellanies-0">Conference</h3>
 							<ul class="fa-ul mb-0">
 								<li>
 									<span class="fa-li"><i class="fas fa-seedling"></i></span>
 									<div class="miscellanies-title">
-										<a href="https://aiis.snu.ac.kr">AIIS</a> Summer Retreat, Poster presentation, <font color="#bd5d38">June 2020</font>
+										<a href="https://aiis.snu.ac.kr">AIIS</a> Summer Retreat, Poster presentation, <span class="miscellanies-period">June 2020</span>
 									</div>
 								</li>
 							</ul>
@@ -269,30 +294,30 @@
                     </div>
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Teaching Experiences</h3>
+                            <h3 class="mb-0 miscellanies-0">Teaching Experiences</h3>
 							<ul class="fa-ul mb-0">
 								<li>
 									<span class="fa-li"><i class="fas fa-seedling"></i></span>
 									<div class="miscellanies-title">
-										Deep Learning Course for LG Chem, Lab session lecturer, <font color="#bd5d38">January 2021</font>
+										Deep Learning Course for LG Chem, Lab session lecturer, <span class="miscellanies-period">January 2021</span>
 									</div>
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-seedling"></i></span>
 									<div class="miscellanies-title">
-										Deep Learning Course for SK Hynix, Lab session lecturer, <font color="#bd5d38">November 2020</font>
+										Deep Learning Course for SK Hynix, Lab session lecturer, <span class="miscellanies-period">November 2020</span>
 									</div>
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-seedling"></i></span>
 									<div class="miscellanies-title">
-										Introduction to Algorithm, SNU, Undergraduate student tutor, <font color="#bd5d38">Fall 2020, Fall 2019</font>
+										Introduction to Algorithm, SNU, Undergraduate student tutor, <span class="miscellanies-period">Fall 2020, Fall 2019</span>
 									</div>
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-seedling"></i></span>
 									<div class="miscellanies-title">
-										Introduction to Physics I, SNU, Undergraduate student tutor, <font color="#bd5d38">Spring 2017</font>
+										Introduction to Physics I, SNU, Undergraduate student tutor, <span class="miscellanies-period">Spring 2017</span>
 									</div>
 								</li>
 							</ul>
@@ -300,59 +325,59 @@
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <!-- <hr class="m-0" /> -->
             <!-- extracurricular-->
             <section class="resume-section" id="extracurricular">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Extra-curricular Activities</h2>
+                    <h2 class="mb-5">Extracurricular Activities</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">GTKSA (Georgia Tech Korean Student Association)</h3>
-                            <div>Organize social events for Korean students in Georgia Tech. Serving as a secretary and web administrator.</div>
+                            <div class="extra-2">Organize social events for Korean students in Georgia Tech. Serving as a secretary and web administrator.</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - December 2020</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">August 2021 - Present</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">SNU Buddy</h3>
-                            <div>Buddy program for the international exchange students</div>
+                            <div class="extra-2">Buddy program for the international exchange students</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - December 2020</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">September 2020 - December 2020</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">Vision Mentoring</h3>
-							<div>Organized and gave lecture on engineering for high school students (More than 700 students attended) </div>
+							<div class="extra-2">Organized and gave lecture on engineering for high school students (More than 700 students attended) </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2019</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">July 2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">Dream Camp Mentoring</h3>
-							<div>Conducted mentoring program about "how to materialize one's dream" for high school students in countryside</div>
+							<div class="extra-2">Conducted mentoring program about "how to materialize one's dream" for high school students in countryside</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2019, February 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">February 2019, February 2018</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">Student Vice President</h3>
-							<div>Elected as a vice president of the Department of Electrical and Computer Engineering, SNU</div>
+							<div class="extra-2">Elected as a vice president of the Department of Electrical and Computer Engineering, SNU</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2017 - October 2018</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">November 2017 - October 2018</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">Student Reporter</h3>
-							<div>Published brochures about the Department of Electrical and Computer Engineering every semester. [<a href="http://ee.snu.ac.kr/academics/campus-life/newsletter">Brochures</a>]</div>
+							<div class="extra-2">Published brochures about the Department of Electrical and Computer Engineering every semester. [<a href="http://ee.snu.ac.kr/academics/campus-life/newsletter">Brochures</a>]</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2017 - February 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">September 2017 - February 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 extra-0">Talent Sharing Volunteer Camp</h3>
-							<div>Conducted self-planned mentoring for elementary school students in underprivileged areas in Korea</div>
+							<div class="extra-2">Conducted self-planned mentoring for elementary school students in underprivileged areas in Korea</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2017, August 2016</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary extra-period">January 2017, August 2016</span></div>
                     </div>
 				</div>
             </section>
