@@ -10805,5 +10805,6 @@ li.news-item {
   }
   #navbar-name {
     position: absolute;
+    top: 0.3rem;
   }
 }

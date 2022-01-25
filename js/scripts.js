@@ -70,3 +70,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+let navbarDropdownToggleKey = document.getElementById("navbar-dropdown-toggle-button");
+navbarDropdownToggleKey.addEventListener("click", function showHideDropDown (e) {
+    let dropdownStatus = navbarDropdownToggleKey.getAttribute("aria-expanded");
+    if (dropdownStatus == "true") {
+        navbarDropdownToggleKey.setAttribute("aria-expanded", "false");
+    }
+    else {
+        navbarDropdownToggleKey.setAttribute("aria-expanded", "true");
+    }
+});
