@@ -8049,7 +8049,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 1.8rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .ml-5,
@@ -10704,7 +10704,8 @@ a.publication-link:hover, a.book-link:hover {
 }
 
 span.publication-title, span.patent-title, .book-title {
-  font-size:1.3em;
+  font-size:1.3rem;
+  line-height: 1.3rem;
   color: #303030;
 }
 
@@ -10766,8 +10767,13 @@ li.news-item {
 
 .education-1, .research-1, .honors-1 {
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   color: #7f7f7f;
+}
+
+.research-1 {
+  margin: 0.2rem 0;
 }
 
 .education-2, .research-2, .honors-2 {
@@ -10776,8 +10782,13 @@ li.news-item {
   font-size: 1.05rem;
 }
 
-.miscellanies-0 {
-  margin-bottom: 0.3rem;
+.experience-0, .experience-1, .publication-0 {
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+}
+
+.experience-1 {
+  margin-top: 0.5rem;
 }
 
 .miscellanies-period {
@@ -10790,6 +10801,7 @@ li.news-item {
   font-family: "PT Sans", sans-serif;
   font-size: 1.1rem;
 }
+
 
 .publication-list {
   margin-left: 0;
@@ -10808,4 +10820,44 @@ li.news-item {
     position: absolute;
     top: 0.3rem;
   }
+}
+
+div.photo-container {
+  width: 15vw;
+  height: 15vw;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-flex;
+}
+
+div.photo-container-cover {
+  width: 15vw;
+  height: 15vw;
+  background-color: white;
+  opacity: 0;
+  text-align: center;
+}
+
+div.photo-container-cover:hover {
+  opacity: 1;
+  background-color: #ffffffc0;
+  color: black;
+}
+
+div.photo-container-desc {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  padding: 5%;
+  text-align: center;
+  transform: translate(0, -50%);
+  color: #101010;
+}
+
+.miscellanies-ul {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }
