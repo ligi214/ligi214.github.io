@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+@article{lee2023towards,
+  title={Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback},
+  author={Lee, Seongmin and Payani, Ali and Chau, Duen Horng},
+  journal={International Conference on Machine Learning (ICML) AI \& HCI Workshop},
+  year={2023}
+}
+</pre>
+</body>
+</html>
