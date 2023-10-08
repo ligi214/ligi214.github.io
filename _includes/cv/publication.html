@@ -107,7 +107,7 @@
 
 	{% if pub.code %}
 	  <a href="{{ pub.code }}">
-	    <i class="fas fa-code" aria-hidden="true"></i> Code
+	    <i class="fas fa-code" aria-hidden="true"></i> Code{% if pub.code-star %} (<i class="fas fa-star"></i>{{ pub.code-star }}){% endif %}
 	  </a>
 	{% endif %}
 
