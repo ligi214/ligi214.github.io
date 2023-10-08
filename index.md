@@ -23,15 +23,15 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div>
 	<div>
-		My research bridges <span style="font-weight: 700; color: #C65E32;">machine learning</span> and <span style="font-weight: 700; color: #C65E32;">human-computer interaction</span>,
+		My research bridges <span class="intro-ml">machine learning</span> and <span class="intro-hci">human-computer interaction</span>,
 		with the pursuit of realizing <b>Responsible AI</b> through the development of
 		<b>visual explanations</b> that empower people to gain a clear understanding of machine learning and
 		<b>scalable algorithms</b> that enable reliable and active use of machine learning.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I am pursuing my PhD at Georgia Tech, working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.
-		I received my BS from Seoul National University, where I was supported by <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Presidential Science Scholarship</a>.
+		I am pursuing my Ph.D. at Georgia Tech, working with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.
+		I received my B.S. from Seoul National University, where I was supported by <a href="https://www.kosaf.go.kr/eng/jsp/aid/aid02_01_01.jsp">Presidential Science Scholarship</a>.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>

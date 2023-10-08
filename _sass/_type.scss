@@ -59,7 +59,8 @@ a {
 }
 
 a:hover, a:focus {
-  color: $dark-blue;
+  // color: $dark-blue;
+  color: $highlight-darkpink;
   text-decoration: underline;
   text-decoration-color: $light-silver;
 }
