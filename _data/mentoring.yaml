@@ -1,0 +1,31 @@
+- name: David Munechika
+  year: "Fall 2021 —"
+  year-extra: "Present"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  url: https://www.linkedin.com/in/dmunechika/
+
+- name: Kevin Li
+  year: "Fall 2021 —"
+  year-extra: "Spr. 2023"
+  degree: "B.S. in Computer Science and Biomedical Engineering, Georgia Institute of Technology"
+  now-position: ML Ph.D
+  now-institution: Carnegie Mellon University
+  url: https://www.linkedin.com/in/kevinyli/
+
+- name: Alex Yang
+  year: "Fall 2021 —"
+  year-extra: "Spr. 2023"
+  degree: "M.S. in Computer Science, Georgia Institute of Technology"
+  now-position: Software Engineer
+  now-institution: Goldman Sachs
+  url: https://alexanderyang.me/
+
+- name: Omar Shaikh
+  year: "Fall 2021 —"
+  year-extra: "Spr. 2022"
+  degree: "B.S. in Computer Science, Georgia Institute of Technology"
+  awards:
+    - Sigma Xi Best Undergraduate Research Award, Georgia Institute of Technology
+  now-position: CS Ph.D
+  now-institution: Stanford University
+  url: http://oshaikh.com/
