@@ -16,12 +16,15 @@ title: Home
 						{% include social-link.html link=link %}
 					{% endif %}
 				{% endfor %}
+				<div id="everything-else" class="social-link">
+					<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div id="everything-else" class="l-middle">
+	<!-- <div id="everything-else" class="l-middle">
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
-	</div>
+	</div> -->
 	<div>
 		My research bridges <span class="intro-ml">machine learning</span> and <span class="intro-hci">human-computer interaction</span>,
 		with the pursuit of realizing <b>Responsible AI</b> through the development of
@@ -35,7 +38,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-	 	I have collaborated with researchers and developers of Cisco Systems, Inc. and AVAST Software.
+	 	I have collaborated with researchers and developers of Cisco Systems, IBM Research, and AVAST Software.
 		<!-- I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab. -->
 	</div>
 </div>

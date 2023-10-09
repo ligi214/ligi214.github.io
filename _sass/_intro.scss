@@ -137,26 +137,28 @@ $cv-icon-aspect-ratio: 1.33;
 #everything-else {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	margin-bottom: 1.5rem;
+	// margin-bottom: 1.5rem;
 }
 
 #everything-else > a {
-	background-color: $black-025;
+	// background-color: $black-025;
 	border-radius: 5rem;
 	padding: 0.75rem 0.75rem;
-	margin: 0.25rem;
+	// margin: 0.25rem;
 	text-align: center;
 	grid-column: 1fr;
 	transition: all .2s ease-in-out;
 	font-size: 1rem;
 	color: $text-color;
 	font-weight: 500;
+	line-height: 1rem;
+	vertical-align: middle;
 }
 
 #everything-else > a:hover {
 	text-decoration: none;
-	background: $black-05;
-	transform: scale(1.03);
+	// background: $black-05;
+	// transform: scale(1.03);
 }
 
 @media screen and (max-width: $homepage-pre-mobile) {
@@ -190,13 +192,15 @@ $cv-icon-aspect-ratio: 1.33;
 	}
 
 	#everything-else > a {
-		background-color: $black-025;
+		// background-color: $black-025;
 		border-radius: 5rem;
 		padding: 0.5rem 1.15rem;
-		margin: 0.25rem;
+		// margin: 0.25rem;
 		// font-size: 1.1rem;
 		color: $text-color;
 		font-weight: 500;
+		// line-height: 1.1rem;
+		// vertical-align: middle;
 	}
 }
 
