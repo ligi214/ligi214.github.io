@@ -26,8 +26,9 @@ title: Home
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div> -->
 	<div>
-		My research bridges <span class="intro-ml">machine learning</span> and <span class="intro-hci">human-computer interaction</span>,
-		with the pursuit of realizing <b>Responsible AI</b> through the development of
+		My research bridges <span class="intro-ml">machine learning</span> and <span class="intro-hci">human-computer interaction</span>
+		to advance <b>Responsible AI</b>.
+		I design and develop
 		<b>visual explanations</b> that empower people to gain a clear understanding of machine learning and
 		<b>scalable algorithms</b> that enable reliable and active use of machine learning.
 	</div>
@@ -38,7 +39,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-	 	I have collaborated with researchers and developers of Cisco Systems, IBM Research, and AVAST Software.
+	 	I have collaborated with researchers and developers at Cisco Systems, IBM Research, and AVAST Software.
 		<!-- I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab. -->
 	</div>
 </div>

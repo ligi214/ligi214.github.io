@@ -18,8 +18,8 @@ venue-num:
  - 0
  - 1
 venue: 
-  - ACM International Conference on Information and Knowledge Management
-  - Artificial Intelligence & Human-Computer Interaction Workshop at ICML
+  - Full Paper, ACM International Conference on Information and Knowledge Management
+  - Poster Paper, Artificial Intelligence & Human-Computer Interaction Workshop at ICML
 venue-shorthand: 
   - CIKM
   - AI&HCI

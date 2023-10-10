@@ -20,9 +20,9 @@ venue-num:
   - 1
   - 2
 venue: 
-  - Poster, IEEE Visualization Conference
-  - VISxAI Workshop at IEEE Visualization Conference
-  - Demo, Conference on Computer Vision and Pattern Recognition
+  - Poster Paper, IEEE Visualization Conference
+  - Demo Paper, VISxAI Workshop at IEEE Visualization Conference
+  - Demo Paper, Conference on Computer Vision and Pattern Recognition
 venue-shorthand: 
   - VIS
   - VISxAI
@@ -33,7 +33,7 @@ year:
   - 2023
 location:
   - Melbourne, Australia
-  - Remote
+  - Melbourne, Australia
   - Vancouver, Canada
 url: /papers/diffusion-explainer
 demo: https://poloclub.github.io/diffusion-explainer/

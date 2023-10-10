@@ -1,8 +1,8 @@
-{% if selectedBoolForBibtex != true %}
+<!-- {% if selectedBoolForBibtex != true %}
 <div class="cv-left-date">
 	{% case pub.type %}{% when "journal" %}J{% when "conference" %}C{% when "preprint" %}P{% when "workshop" %}W{% when "poster" %}P{% when "demo" %}D{% when "book" %}B{% when "misc" %}M{% endcase %}{{ forloop.rindex }}
 </div>
-{% endif %}
+{% endif %} -->
 
 <div>
 {% if pub.url %}
@@ -15,7 +15,7 @@
 <div>
 	{% for person in pub.authors %}
 		{% if forloop.last == false %}
-			{% if person=="Seongmin Lee" %}<b>{% include person.html person=person %}</b>{% else %}{% include person.html person=person %}{% endif %}{% for p in pub.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %},
+			{% if person=="Seongmin Lee" %}{% include person.html person=person %}{% else %}{% include person.html person=person %}{% endif %}{% for p in pub.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %},
 		{% else if forloop.last == true %}
 			{% include person.html person=person %}{% for p in pub.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %}
 		{% endif %}

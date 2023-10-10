@@ -17,7 +17,7 @@ authors:
   - Seongmin Lee
   - Mahdi Roozbahani
   - Duen Horng (Polo) Chau
-venue: IEEE Visualization and Visual Analytics
+venue: Full Paper, IEEE Visualization and Visual Analytics
 venue-shorthand: VIS
 year: 2023
 location: Melbourne, Australia
