@@ -13,7 +13,10 @@ permalink: cv/
 
 
 <div>
-My research bridges machine learning and human-computer interaction, with the pursuit of realizing <b>Responsible AI</b> through the development of <b>visual explanations</b> that empower people to gain a clear understanding of machine learning and <b>scalable algorithms</b> that enable reliable and active use of machine learning.
+My research bridges machine learning and human-computer interaction to advance <b>Responsible AI</b>.
+I design and develop 
+<b>novel visual explanations</b> for complex machine learning models, and
+<b>scalable algorithms</b> that promote accountable use of AI.
 </div>
 
 <div class="cv-spacer"></div>

@@ -29,8 +29,8 @@ title: Home
 		My research bridges <span class="intro-ml">machine learning</span> and <span class="intro-hci">human-computer interaction</span>
 		to advance <b>Responsible AI</b>.
 		I design and develop
-		<b>visual explanations</b> that empower people to gain a clear understanding of machine learning and
-		<b>scalable algorithms</b> that enable reliable and active use of machine learning.
+		<b>novel visual explanations</b> for complex machine learning models, and
+		<b>scalable algorithms</b> that promote accountable use of AI.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
