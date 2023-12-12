@@ -49,6 +49,10 @@
 <lastmod>2023-10-02T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/papers/tsr-convstem</loc>
+<lastmod>2023-12-12T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/bio/</loc>
 </url>
 <url>
@@ -63,6 +67,10 @@
 <url>
 <loc>http://localhost:4000/cv.pdf</loc>
 <lastmod>2023-10-12T09:48:15-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/papers/23-crayon-paper.pdf</loc>
+<lastmod>2023-12-12T15:00:10-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/23-diffusion-explainer-poster.pdf</loc>
