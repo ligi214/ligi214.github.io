@@ -19,7 +19,7 @@
 
   <title>
     
-      NOVA: A Practical Method for Creating Notebook-Ready Visual Analytics — Seongmin Lee
+      UniTable: Towards a Unified Framework for Table Structure Recognition via Self-Supervised Pretraining — Seongmin Lee
     
   </title>
 
@@ -74,12 +74,12 @@
     <main>
       <div id="paper-title-wrapper" class="l-screen">
 
-	<h1>NOVA: A Practical Method for Creating Notebook-Ready Visual Analytics</h1>
+	<h1>UniTable: Towards a Unified Framework for Table Structure Recognition via Self-Supervised Pretraining</h1>
 
 	<div id="venue-bar">
 		<div id="venue">
 			
-			Poster Paper, IEEE Visualization and Visual Analytics (VIS), 2022
+			ArXiv, 2024
 			
 		</div>
 		
@@ -96,25 +96,13 @@
             <div class="author">
                 
 
-    <!-- <a href="https://zijie.wang/"> -->
-        <img src="/images/people/zijie-j-wang.jpg" class="author-image">
+    <!-- <a href="https://shengyun-peng.github.io/"> -->
+        <img src="/images/people/shengyun-peng.jpeg" class="author-image">
     <!-- </a> -->
 
 
                 
-<a href="https://zijie.wang/">Zijie J. Wang</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://www.linkedin.com/in/dmunechika/"> -->
-        <img src="/images/people/david-munechika.jpeg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://www.linkedin.com/in/dmunechika/">David Munechika</a>
+<a href="https://shengyun-peng.github.io/">ShengYun Peng</a>
             </div>
         
             <div class="author">
@@ -127,6 +115,30 @@
 
                 
 <a href="https://www.seongmin.xyz/">Seongmin Lee</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/xiaojing-wang-x00788/"> -->
+        <img src="/images/people/xiaojing-wang.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/xiaojing-wang-x00788/">Xiaojing Wang</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://www.linkedin.com/in/rajarajeswari-raji-balasubramaniyan-ph-d-753792a8/"> -->
+        <img src="/images/people/raji-balasubramaniyan.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.linkedin.com/in/rajarajeswari-raji-balasubramaniyan-ph-d-753792a8/">Rajarajeswari Balasubramaniyan</a>
             </div>
         
             <div class="author">
@@ -151,17 +163,13 @@
 			
 		
 			
-			  <a href="/papers/nova"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			  <a href="/papers/unitable"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
 			
 		
 			
-			  <a href="https://poloclub.github.io/nova/"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
-			
 		
 			
-			  <a href="https://arxiv.org/pdf/2205.03963"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
-			
-		
+			  <a href="https://arxiv.org/pdf/2403.04822"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
 			
 		
 			
@@ -175,11 +183,11 @@
 			
 		
 			
-			  <a href="https://zijie.wang/poster/nova.webp"><div><i class="fas fa-image" aria-hidden="true"></i> Poster</div></a>
+		
 			
 		
 			
-			  <a href="https://github.com/poloclub/nova"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
+			  <a href="https://github.com/poloclub/unitable"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
 			
 		
 			
@@ -194,12 +202,12 @@
 </div>
 
 <h2>Abstract</h2>
-<div><p>How can we develop visual analytics (VA) tools that can be easily adopted? Visualization researchers have developed a large number of web-based VA tools to help data scientists in a wide range of tasks. However, adopting these standalone systems can be challenging, as they require data scientists to create new workflows to streamline the VA processes. Recent surveys suggest computational notebooks have been dominating data scientists’ analytical workflows, as these notebooks seamlessly combine text, code, and visualization, allowing users to rapidly iterate code experiments. To help visualization researchers develop VA tools that can be easily integrated into existing data science workflows, we present NOVA, a simple and flexible method to adapt web-based VA systems for notebooks. We provide detailed examples of using this method with diverse web development technologies and different types of computational notebooks. Deployed application examples highlight that NOVA is easy to adopt, and data scientists appreciate in-notebook VA. NOVA is available at https://github.com/poloclub/nova.</p>
+<div><p>Tables convey factual and quantitative data with implicit conventions created by humans that are often challenging for machines to parse. Prior work on table structure recognition (TSR) has mainly centered around complex task-specific combinations of available inputs and tools. We present UniTable, a training framework that unifies both the training paradigm and training objective of TSR. Its training paradigm combines the simplicity of purely pixel-level inputs with the effectiveness and scalability empowered by self-supervised pretraining (SSP) from diverse unannotated tabular images. Our framework unifies the training objectives of all three TSR tasks - extracting table structure, cell content, and cell bounding box (bbox) - into a unified task-agnostic training objective: language modeling. Extensive quantitative and qualitative analyses highlight UniTable’s state-of-the-art (SOTA) performance on four of the largest TSR datasets. To promote reproducible research, enhance transparency, and SOTA innovations, we open-source our code at https://github.com/poloclub/unitable and release the first-of-its-kind Jupyter Notebook of the whole inference pipeline, fine-tuned across multiple TSR datasets, supporting all three TSR tasks.</p>
 </div>
 
 
 <figure class="l-text">
-    <img class="single" src="/images/papers/22-nova.png">
+    <img class="single" src="/images/papers/24-unitable.png">
     <figcaption class="single"></figcaption>
 </figure>
 
@@ -210,11 +218,11 @@
 	<div class="highlight">
 		<pre>
 			
-@article{wang2022nova,
-  title={Nova: A practical method for creating notebook-ready visual analytics},
-  author={Wang, Zijie J and Munechika, David and Lee, Seongmin and Chau, Duen Horng},
-  journal={arXiv preprint arXiv:2205.03963},
-  year={2022}
+@article{peng2024unitable,
+  title={{UniTable}: Towards a Unified Framework for Table Structure Recognition via Self-Supervised Pretraining},
+  author={Peng, ShengYun and Lee, Seongmin and Wang, Xiaojing and Balasubramaniyan, Rajarajeswari and Chau, Duen Horng},
+  journal={arXiv preprint arXiv:2403.04822},
+  year={2024}
 }
 		</pre>
 	</div>

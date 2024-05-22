@@ -40,13 +40,13 @@ demo: https://poloclub.github.io/diffusion-explainer/
 pdf: https://browse.arxiv.org/pdf/2305.03509.pdf
 recording: https://www.youtube.com/watch?v=Zg4gxdIWDds
 code: https://github.com/poloclub/diffusion-explainer
-code-star: 85
+code-star: 131
 poster: /papers/23-diffusion-explainer-poster.pdf
 selected: false
 type: poster
 figure: /images/papers/23-diffusion-explainer-short.gif
 featured: true
-feature-order: 1
+feature-order: 2
 feature-title: Diffusion Explainer
 image: /images/featured/23-diffusion-explainer-short.gif
 feature-description: Interactive visualization tool that explains how Stable Diffusion transforms text prompts into images

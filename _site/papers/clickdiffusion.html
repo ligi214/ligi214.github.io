@@ -19,7 +19,7 @@
 
   <title>
     
-      Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback — Seongmin Lee
+      ClickDiffusion: Harnessing LLMs for Interactive Precise Image Editing — Seongmin Lee
     
   </title>
 
@@ -74,12 +74,12 @@
     <main>
       <div id="paper-title-wrapper" class="l-screen">
 
-	<h1>Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback</h1>
+	<h1>ClickDiffusion: Harnessing LLMs for Interactive Precise Image Editing</h1>
 
 	<div id="venue-bar">
 		<div id="venue">
 			
-			Poster Paper, Artificial Intelligence & Human-Computer Interaction Workshop at ICML (AI&HCI), 2023
+			ArXiv, 2024
 			
 		</div>
 		
@@ -96,6 +96,18 @@
             <div class="author">
                 
 
+    <!-- <a href="https://alechelbling.com/"> -->
+        <img src="/images/people/alec-helbling.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://alechelbling.com/">Alec Helbling</a>
+            </div>
+        
+            <div class="author">
+                
+
     <!-- <a href="https://www.seongmin.xyz/"> -->
         <img src="/images/people/seongmin-lee.jpg" class="author-image">
     <!-- </a> -->
@@ -103,18 +115,6 @@
 
                 
 <a href="https://www.seongmin.xyz/">Seongmin Lee</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://www.linkedin.com/in/ali-payani-ph-d-59267515/"> -->
-        <img src="/images/people/ali-payani.jpeg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://www.linkedin.com/in/ali-payani-ph-d-59267515/">Ali Payani</a>
             </div>
         
             <div class="author">
@@ -139,19 +139,13 @@
 			
 		
 			
-			  <a href="/papers/crayon"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			  <a href="/papers/clickdiffusion"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
 			
 		
 			
 		
 			
-			  <a href="/papers/23-crayon-paper.pdf"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
-			
-		
-			
-		
-			
-		
+			  <a href="https://arxiv.org/pdf/2404.04376"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
 			
 		
 			
@@ -162,6 +156,14 @@
 		
 			
 		
+			
+		
+			
+		
+			
+		
+			
+			  <a href="https://github.com/poloclub/ClickDiffusion"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
 			
 		
 			
@@ -176,14 +178,9 @@
 </div>
 
 <h2>Abstract</h2>
-<div><p>Modern deep learning models have achieved remarkable performance. However, they often rely on spurious correlations between data and labels that exist only in the training data, resulting in poor generalization performance. We present CRAYON (Correlation Rectification Algorithms by Yes Or No), effective, scalable, and practical solutions to refine models with spurious correlations using simple yes-no feedback on model interpretations. CRAYON addresses key limitations of existing approaches that heavily rely on costly human intervention and empowers popular model interpretation techniques to mitigate spurious correlations in two distinct ways: CRAYON-ATTENTION guides saliency maps to focus on relevant image regions, and CRAYON-PRUNING prunes irrelevant neurons to remove their influence. Extensive evaluation on three benchmark image datasets and three state-of-the-art methods demonstrates that our methods effectively mitigate spurious correlations, achieving comparable or even better performance than existing approaches that require more complex feedback.</p>
+<div><p>Recently, researchers have proposed powerful systems for generating and manipulating images using natural language instructions. However, it is difficult to precisely specify many common classes of image transformations with text alone. For example, a user may wish to change the location and breed of a particular dog in an image with several similar dogs. This task is quite difficult with natural language alone, and would require a user to write a laboriously complex prompt that both disambiguates the target dog and describes the destination. We propose ClickDiffusion, a system for precise image manipulation and generation that combines natural language instructions with visual feedback provided by the user through a direct manipulation interface. We demonstrate that by serializing both an image and a multi-modal instruction into a textual representation it is possible to leverage LLMs to perform precise transformations of the layout and appearance of an image. Code available at https://github.com/poloclub/ClickDiffusion.</p>
 </div>
 
-
-<figure class="l-text">
-    <img class="single" src="/images/papers/23-crayon.png">
-    <figcaption class="single"></figcaption>
-</figure>
 
 
 <h2>BibTeX</h2>
@@ -192,11 +189,11 @@
 	<div class="highlight">
 		<pre>
 			
-@inproceedings{lee2023towards,
-  title={Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback},
-  author={Lee, Seongmin and Payani, Ali and Chau, Duen Horng (Polo)},
-  booktitle={AI & HCI Workshop at the 40th International Conference on Machine Learning (ICML)},
-  year={2023},
+@article{helbling2024clickdiffusion,
+  title={{ClickDiffusion}: Harnessing LLMs for Interactive Precise Image Editing},
+  author={Helbling, Alec and Lee, Seongmin and Chau, Polo},
+  journal={arXiv preprint arXiv:2404.04376},
+  year={2024}
 }
 		</pre>
 	</div>
@@ -213,7 +210,7 @@
 		<a href="https://scholar.google.com/citations?user=EA4jKm4AAAAJ&hl=ko&authuser=1"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
 		<br>
 		<br>
-		&copy; <time datetime="December 12, 2023">2023</time> Seongmin Lee
+		&copy; <time datetime="May 22, 2024">2024</time> Seongmin Lee
 	</div>
 	<div id="footer-right">
 		Seongmin Lee is a PhD student at Georgia Tech developing visual explanations and scalable algorithms for responsible AI.

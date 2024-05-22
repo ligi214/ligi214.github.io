@@ -19,7 +19,7 @@
 
   <title>
     
-      NOVA: A Practical Method for Creating Notebook-Ready Visual Analytics — Seongmin Lee
+      LLM Attributor: Interactive Visual Attribution for LLM Generation — Seongmin Lee
     
   </title>
 
@@ -74,12 +74,12 @@
     <main>
       <div id="paper-title-wrapper" class="l-screen">
 
-	<h1>NOVA: A Practical Method for Creating Notebook-Ready Visual Analytics</h1>
+	<h1>LLM Attributor: Interactive Visual Attribution for LLM Generation</h1>
 
 	<div id="venue-bar">
 		<div id="venue">
 			
-			Poster Paper, IEEE Visualization and Visual Analytics (VIS), 2022
+			ArXiv, 2024
 			
 		</div>
 		
@@ -96,6 +96,18 @@
             <div class="author">
                 
 
+    <!-- <a href="https://www.seongmin.xyz/"> -->
+        <img src="/images/people/seongmin-lee.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://www.seongmin.xyz/">Seongmin Lee</a>
+            </div>
+        
+            <div class="author">
+                
+
     <!-- <a href="https://zijie.wang/"> -->
         <img src="/images/people/zijie-j-wang.jpg" class="author-image">
     <!-- </a> -->
@@ -108,25 +120,49 @@
             <div class="author">
                 
 
-    <!-- <a href="https://www.linkedin.com/in/dmunechika/"> -->
-        <img src="/images/people/david-munechika.jpeg" class="author-image">
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
     <!-- </a> -->
 
 
                 
-<a href="https://www.linkedin.com/in/dmunechika/">David Munechika</a>
+Aishwarya Chakravarthy
             </div>
         
             <div class="author">
                 
 
-    <!-- <a href="https://www.seongmin.xyz/"> -->
-        <img src="/images/people/seongmin-lee.jpg" class="author-image">
+    <!-- <a href="https://alechelbling.com/"> -->
+        <img src="/images/people/alec-helbling.jpeg" class="author-image">
     <!-- </a> -->
 
 
                 
-<a href="https://www.seongmin.xyz/">Seongmin Lee</a>
+<a href="https://alechelbling.com/">Alec Helbling</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href="https://shengyun-peng.github.io/"> -->
+        <img src="/images/people/shengyun-peng.jpeg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://shengyun-peng.github.io/">ShengYun Peng</a>
+            </div>
+        
+            <div class="author">
+                
+
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
+    <!-- </a> -->
+
+
+                
+Mansi Phute
             </div>
         
             <div class="author">
@@ -141,6 +177,18 @@
 <a href="https://www.cc.gatech.edu/~dchau">Duen Horng (Polo) Chau</a>
             </div>
         
+            <div class="author">
+                
+
+    <!-- <a href="https://minsuk.com"> -->
+        <img src="/images/people/minsuk-kahng.jpg" class="author-image">
+    <!-- </a> -->
+
+
+                
+<a href="https://minsuk.com">Minsuk Kahng</a>
+            </div>
+        
     </div>
 
 	<!-- <hr class="project-hr"> -->
@@ -151,17 +199,13 @@
 			
 		
 			
-			  <a href="/papers/nova"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			  <a href="/papers/llm-attributor"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
 			
 		
 			
-			  <a href="https://poloclub.github.io/nova/"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
-			
 		
 			
-			  <a href="https://arxiv.org/pdf/2205.03963"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
-			
-		
+			  <a href="https://arxiv.org/pdf/2404.01361"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
 			
 		
 			
@@ -173,13 +217,15 @@
 			
 		
 			
-		
-			
-			  <a href="https://zijie.wang/poster/nova.webp"><div><i class="fas fa-image" aria-hidden="true"></i> Poster</div></a>
+			  <a href="https://youtu.be/mIG2MDQKQxM"><div><i class="fas fa-video" aria-hidden="true"></i> Recording</div></a>
 			
 		
 			
-			  <a href="https://github.com/poloclub/nova"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
+		
+			
+		
+			
+			  <a href="https://github.com/poloclub/LLM-Attributor"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
 			
 		
 			
@@ -194,12 +240,12 @@
 </div>
 
 <h2>Abstract</h2>
-<div><p>How can we develop visual analytics (VA) tools that can be easily adopted? Visualization researchers have developed a large number of web-based VA tools to help data scientists in a wide range of tasks. However, adopting these standalone systems can be challenging, as they require data scientists to create new workflows to streamline the VA processes. Recent surveys suggest computational notebooks have been dominating data scientists’ analytical workflows, as these notebooks seamlessly combine text, code, and visualization, allowing users to rapidly iterate code experiments. To help visualization researchers develop VA tools that can be easily integrated into existing data science workflows, we present NOVA, a simple and flexible method to adapt web-based VA systems for notebooks. We provide detailed examples of using this method with diverse web development technologies and different types of computational notebooks. Deployed application examples highlight that NOVA is easy to adopt, and data scientists appreciate in-notebook VA. NOVA is available at https://github.com/poloclub/nova.</p>
+<div><p>While large language models (LLMs) have shown remarkable capability to generate convincing text across diverse domains, concerns around its potential risks have highlighted the importance of understanding the rationale behind text generation. We present LLM Attributor, a Python library that provides interactive visualizations for training data attribution of an LLM’s text generation. Our library offers a new way to quickly attribute an LLM’s text generation to training data points to inspect model behaviors, enhance its trustworthiness, and compare model-generated text with user-provided text. We describe the visual and interactive design of our tool and highlight usage scenarios for LLaMA2 models fine-tuned with two different datasets: online articles about recent disasters and finance-related question-answer pairs. Thanks to LLM Attributor’s broad support for computational notebooks, users can easily integrate it into their workflow to interactively visualize attributions of their models. For easier access and extensibility, we open-source LLM Attributor at https://github.com/poloclub/ LLM-Attribution. The video demo is available at https://youtu.be/mIG2MDQKQxM.</p>
 </div>
 
 
 <figure class="l-text">
-    <img class="single" src="/images/papers/22-nova.png">
+    <img class="single" src="/images/papers/24-llm-attributor.png">
     <figcaption class="single"></figcaption>
 </figure>
 
@@ -210,11 +256,11 @@
 	<div class="highlight">
 		<pre>
 			
-@article{wang2022nova,
-  title={Nova: A practical method for creating notebook-ready visual analytics},
-  author={Wang, Zijie J and Munechika, David and Lee, Seongmin and Chau, Duen Horng},
-  journal={arXiv preprint arXiv:2205.03963},
-  year={2022}
+@article{lee2024llm,
+  title={{LLM Attributor: Interactive Visual Attribution for LLM Generation}},
+  author={Lee, Seongmin and Wang, Zijie J and Chakravarthy, Aishwarya and Helbling, Alec and Peng, ShengYun and Phute, Mansi and Chau, Duen Horng and Kahng, Minsuk},
+  journal={arXiv preprint arXiv:2404.01361},
+  year={2024}
 }
 		</pre>
 	</div>
