@@ -17,30 +17,20 @@ authors:
   - Duen Horng (Polo) Chau
 venue-num:
   - 0
-  - 1
-  - 2
 venue: 
-  - Poster Paper, IEEE Visualization Conference
-  - Demo Paper, VISxAI Workshop at IEEE Visualization Conference
-  - Demo Paper, Conference on Computer Vision and Pattern Recognition
+  - Short Paper, IEEE Visualization Conference
 venue-shorthand: 
   - VIS
-  - VISxAI
-  - CVPR
 year: 
-  - 2023
-  - 2023
-  - 2023
+  - 2024
 location:
-  - Melbourne, Australia
-  - Melbourne, Australia
-  - Vancouver, Canada
+  - Tampa, USA
 url: /papers/diffusion-explainer
 demo: https://poloclub.github.io/diffusion-explainer/
 pdf: https://browse.arxiv.org/pdf/2305.03509.pdf
 recording: https://www.youtube.com/watch?v=Zg4gxdIWDds
 code: https://github.com/poloclub/diffusion-explainer
-code-star: 131
+code-star: 139
 poster: /papers/23-diffusion-explainer-poster.pdf
 selected: false
 type: poster

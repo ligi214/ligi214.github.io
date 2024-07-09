@@ -16,18 +16,13 @@ authors:
   - Duen Horng (Polo) Chau
 venue-num:
  - 0
- - 1
 venue: 
   - Full Paper, ACM International Conference on Information and Knowledge Management
-  - Poster Paper, Artificial Intelligence & Human-Computer Interaction Workshop at ICML
 venue-shorthand: 
   - CIKM
-  - AI&HCI
 location: 
   - Birmingham, United Kingdom
-  - Honolulu, HI, USA
 year: 
-  - 2023
   - 2023
 url: /papers/conceptevo
 pdf: https://arxiv.org/abs/2203.16475

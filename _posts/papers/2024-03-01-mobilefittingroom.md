@@ -1,28 +1,30 @@
 ---
 layout: paper
-id: clickdiffusion
+id: mobilefittingroom
 categories: papers
-permalink: papers/clickdiffusion
-title: "ClickDiffusion: Harnessing LLMs for Interactive Precise Image Editing"
+permalink: papers/mobilefittingroom
+title: "Mobile Fitting Room: On-device Virtual Try-on via Diffusion Models"
 authors: 
+  - Justin Blalock
+  - David Munechika
+  - Harsha Karanth
   - Alec Helbling
+  - Pratham Mehta
   - Seongmin Lee
   - Duen Horng (Polo) Chau
-venue: CVPR 2024 Workshop on AI for Content Creation Workshop
+venue: CVPR 24 Workshop on Virtual Try-On
 venue-shorthand: CVPR
 year: 2024
-url: /papers/clickdiffusion
-pdf: https://arxiv.org/pdf/2404.04376
-code: https://github.com/poloclub/ClickDiffusion
-code-star: 59
+url: /papers/mobilefittingroom
+pdf: https://arxiv.org/abs/2402.01877
 selected: false
 featured: false
 bibtex: |-
 
-  @article{helbling2024clickdiffusion,
-    title={{ClickDiffusion}: Harnessing LLMs for Interactive Precise Image Editing},
-    author={Helbling, Alec and Lee, Seongmin and Chau, Polo},
-    journal={arXiv preprint arXiv:2404.04376},
+  @article{blalock2024mobile,
+    title={{Mobile Fitting Room: On-device Virtual Try-on via Diffusion Models}},
+    author={Blalock, Justin and Munechika, David and Karanth, Harsha and Helbling, Alec and Mehta, Pratham and Lee, Seongmin and Chau, Duen Horng},
+    journal={arXiv preprint arXiv:2402.01877},
     year={2024}
   }
 ---

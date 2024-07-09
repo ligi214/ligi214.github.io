@@ -37,12 +37,12 @@
 <lastmod>2023-10-01T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/papers/diffusion-explainer</loc>
-<lastmod>2023-10-02T00:00:00-04:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/papers/tsr-convstem</loc>
 <lastmod>2023-12-12T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/papers/mobilefittingroom</loc>
+<lastmod>2024-03-01T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/clickdiffusion</loc>
@@ -61,6 +61,10 @@
 <lastmod>2024-04-01T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/papers/diffusion-explainer</loc>
+<lastmod>2024-04-30T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/bio/</loc>
 </url>
 <url>
@@ -74,7 +78,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/cv.pdf</loc>
-<lastmod>2024-05-22T13:31:52-04:00</lastmod>
+<lastmod>2024-07-08T22:17:57-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/papers/23-diffusion-explainer-poster.pdf</loc>
