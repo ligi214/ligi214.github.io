@@ -41,7 +41,7 @@
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=EA4jKm4AAAAJ&hl=ko&authuser=1"
+  url: "https://scholar.google.com/citations?user=EA4jKm4AAAAJ"
   on-homepage: true
   cv-group: 2
 

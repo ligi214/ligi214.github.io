@@ -14,7 +14,7 @@ year: 2024
 url: /papers/clickdiffusion
 pdf: https://arxiv.org/pdf/2404.04376
 code: https://github.com/poloclub/ClickDiffusion
-code-star: 59
+code-star: 64
 selected: false
 featured: false
 bibtex: |-

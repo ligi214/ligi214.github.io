@@ -1,38 +1,39 @@
 ---
 layout: paper
-id: llm-attributor
+id: transformer-explainer
 categories: papers
-permalink: papers/llm-attributor
-title: "LLM Attributor: Interactive Visual Attribution for LLM Generation"
+permalink: papers/transformer-explainer
+title: "Transformer Explainer: Interactive Learning of Text-Generative Models"
 authors: 
-  - Seongmin Lee
-  - Zijie J. Wang
-  - Aishwarya Chakravarthy
+  - Aeree Cho
+  - Grace C Kim
+  - Alexander Karpekov
   - Alec Helbling
-  - ShengYun Peng
-  - Mansi Phute
+  - Zijie J. Wang
+  - Seongmin Lee
+  - Benjamin Hoover
   - Duen Horng (Polo) Chau
-  - Minsuk Kahng
 venue: Poster, IEEE Visualization Conference
 venue-shorthand: VIS
 year: 2024
-url: /papers/llm-attributor
-pdf: https://arxiv.org/pdf/2404.01361
-recording: https://youtu.be/mIG2MDQKQxM
-code: https://github.com/poloclub/LLM-Attributor
+url: /papers/transformer-explainer
+pdf: https://arxiv.org/pdf/2408.04619
+recording: https://youtu.be/ECR4oAwocjs
+code: https://github.com/poloclub/transformer-explainer
+code-star: 2.3k
 selected: false
-figure: /images/papers/24-llm-attributor.png
-image: /images/papers/24-llm-attributor.png
-featured: true
-feature-order: 1
-feature-title: LLM Attributor
-feature-description: Interactive Visual Attribution for LLM Generation
+figure: /images/papers/24-transformer-explainer.png
+image: /images/papers/24-transformer-explainer.png
+featured: false
+feature-order: 4
+feature-title: Transformer Explainer
+feature-description: Interactive Visualization Tool for Transformer-based models like GPT
 bibtex: |-
 
-  @article{lee2024llm,
-    title={{LLM Attributor: Interactive Visual Attribution for LLM Generation}},
-    author={Lee, Seongmin and Wang, Zijie J and Chakravarthy, Aishwarya and Helbling, Alec and Peng, ShengYun and Phute, Mansi and Chau, Duen Horng and Kahng, Minsuk},
-    journal={arXiv preprint arXiv:2404.01361},
+  @article{cho2024transformer,
+    title={{T}ransformer {E}xplainer: {I}nteractive {L}earning of {T}ext-{G}enerative {M}odels},
+    author={Cho, Aeree and Kim, Grace C. and Karpekov, Alexander and Helbling, Alec and Wang, Zijie J. and Lee, Seongmin and Hoover, Benjamin and Chau, Duen Horng},
+    journal={IEEE VIS},
     year={2024}
   }
 ---
