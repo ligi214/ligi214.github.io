@@ -22,7 +22,7 @@ I design and develop
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with researchers and developers at Cisco Systems, IBM Research, and AVAST Software.
+I have collaborated with researchers and developers at JP Morgan Chase & Co., Cisco Systems, IBM Research, and AVAST Software.
 </div>
 
 <div class="cv-spacer"></div>
