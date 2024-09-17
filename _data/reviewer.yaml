@@ -1,3 +1,9 @@
+- venue: 7th Workshop on Visualization for AI Explainability
+  venue-shorthand: VISxAI
+  years:
+    - year: 2024
+      url: https://visxai.io
+      
 - venue: ACM Conference On Computer-Supported Cooperative Work and Social Computing
   venue-shorthand: CSCW
   years:
