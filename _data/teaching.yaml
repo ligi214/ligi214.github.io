@@ -1,6 +1,17 @@
 - institution: Georgia Institute of Technology
   position: Graduate Teaching Assistant
   location: "Atlanta, GA"
+  year: Spring 2024
+  class: "Data and Visual Analytics (CSE6242)"
+  instructor: Duen Horng (Polo) Chau, Mahdi Roozbahani
+  description: "Online course with 1201 graduate students enrolled."
+  institution-url: http://gatech.edu
+  class-url: https://poloclub.github.io/cse6242-2024spring-online/
+  ta: true
+
+- institution: Georgia Institute of Technology
+  position: Graduate Teaching Assistant
+  location: "Atlanta, GA"
   year: Fall 2022
   class: "Data and Visual Analytics (CSE6242)"
   instructor: Duen Horng (Polo) Chau, Mahdi Roozbahani
