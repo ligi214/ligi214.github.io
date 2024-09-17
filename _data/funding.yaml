@@ -1,3 +1,13 @@
+- title: "Democratizing Visual AI: Enhancing Efficiency and Usability of Large Vision Models for Fostering Under-Resourced Access"
+  years: "2024"
+  name: "NSF Medium Grant"
+  co-pis:
+    - Judy Hoffman
+    - Celine Lin
+    - Duen Horng (Polo) Chau
+  amount: "$1.2M"
+  description: Co-authored winning proposal. Contributed to experiment with on-device implementation of the CLIP model.
+
 - title: "Scaling Up Educators' Capacities: Automating Visualization Assessment via Generative AI"
   years: "2023"
   name: "Google Award for Inclusion Research"
