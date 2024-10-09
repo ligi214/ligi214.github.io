@@ -30,7 +30,7 @@ demo: https://poloclub.github.io/diffusion-explainer/
 pdf: https://browse.arxiv.org/pdf/2305.03509.pdf
 recording: https://www.youtube.com/watch?v=Zg4gxdIWDds
 code: https://github.com/poloclub/diffusion-explainer
-code-star: 191
+code-star: 207
 poster: /papers/23-diffusion-explainer-poster.pdf
 selected: false
 type: poster

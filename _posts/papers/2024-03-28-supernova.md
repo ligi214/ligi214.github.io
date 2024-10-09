@@ -15,7 +15,7 @@ year: 2024
 url: /papers/supernova
 pdf: https://arxiv.org/pdf/2305.03039
 code: https://github.com/poloclub/supernova
-code-star: 61
+code-star: 62
 demo: https://poloclub.github.io/supernova/
 selected: false
 type: preprint
