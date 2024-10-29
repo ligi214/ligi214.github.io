@@ -96,7 +96,7 @@ I have collaborated with researchers and developers at JP Morgan Chase & Co., Ci
 {% include cv/book.html book=book %}
 {% endfor %}
 
-## Talks
+## Invited Talks
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}

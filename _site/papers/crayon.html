@@ -19,7 +19,7 @@
 
   <title>
     
-      Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback — Seongmin Lee
+      Effective Guidance for Model Attention with Simple Yes-no Annotations — Seongmin Lee
     
   </title>
 
@@ -74,12 +74,12 @@
     <main>
       <div id="paper-title-wrapper" class="l-screen">
 
-	<h1>Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback</h1>
+	<h1>Effective Guidance for Model Attention with Simple Yes-no Annotations</h1>
 
 	<div id="venue-bar">
 		<div id="venue">
 			
-			Poster Paper, Artificial Intelligence & Human-Computer Interaction Workshop at ICML (AI&HCI), 2023
+			Oral Paper, IEEE International Conference on Big Data (BigData), 2024
 			
 		</div>
 		
@@ -145,7 +145,7 @@
 			
 		
 			
-			  <a href="/papers/23-crayon-paper.pdf"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
+			  <a href="/papers/24-crayon-paper.pdf"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
 			
 		
 			
@@ -176,12 +176,12 @@
 </div>
 
 <h2>Abstract</h2>
-<div><p>Modern deep learning models have achieved remarkable performance. However, they often rely on spurious correlations between data and labels that exist only in the training data, resulting in poor generalization performance. We present CRAYON (Correlation Rectification Algorithms by Yes Or No), effective, scalable, and practical solutions to refine models with spurious correlations using simple yes-no feedback on model interpretations. CRAYON addresses key limitations of existing approaches that heavily rely on costly human intervention and empowers popular model interpretation techniques to mitigate spurious correlations in two distinct ways: CRAYON-ATTENTION guides saliency maps to focus on relevant image regions, and CRAYON-PRUNING prunes irrelevant neurons to remove their influence. Extensive evaluation on three benchmark image datasets and three state-of-the-art methods demonstrates that our methods effectively mitigate spurious correlations, achieving comparable or even better performance than existing approaches that require more complex feedback.</p>
+<div><p>Modern deep learning models often make predictions by focusing on irrelevant areas, leading to biased performance and limited generalization. Existing methods aimed at rectifying model attention require explicit labels for irrelevant areas or complex pixel-wise ground truth attention maps. We present CRAYON (Correcting Reasoning with Annotations of Yes Or No), offering effective, scalable, and practical solutions to rectify model attention using simple yes-no annotations. CRAYON empowers classical and modern model interpretation techniques to identify and guide model reasoning: CRAYON-ATTENTION directs classic interpretations based on saliency maps to focus on relevant image regions, while CRAYON-PRUNING removes irrelevant neurons identified by modern concept-based methods to mitigate their influence. Through extensive experiments with both quantitative and human evaluation, we showcase CRAYON’s effectiveness, scalability, and practicality in refining model attention. CRAYON achieves state-of-the-art performance, outperforming 12 methods across 3 benchmark datasets, surpassing approaches that require more complex annotations.</p>
 </div>
 
 
 <figure class="l-text">
-    <img class="single" src="/images/papers/23-crayon.png">
+    <img class="single" src="/images/papers/24-crayon.png">
     <figcaption class="single"></figcaption>
 </figure>
 
@@ -191,11 +191,11 @@
 <div class="highlighter-rouge bibtex bibtex-wrapper">
 	<div class="highlight">
 		<pre>
-			@inproceedings{lee2023towards,
-  title={Towards Mitigating Spurious Correlations in Image Classifiers with Simple Yes-no Feedback},
+			@inproceedings{lee2024towards,
+  title={Effective Guidance for Model Attention with Simple Yes-no Annotations},
   author={Lee, Seongmin and Payani, Ali and Chau, Duen Horng (Polo)},
-  booktitle={AI & HCI Workshop at the 40th International Conference on Machine Learning (ICML)},
-  year={2023},
+  booktitle={IEEE International Conference on Big Data (BigData)},
+  year={2024},
 }
 		</pre>
 	</div>
@@ -212,7 +212,7 @@
 		<a href="https://scholar.google.com/citations?user=EA4jKm4AAAAJ&hl=ko&authuser=1"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
 		<br>
 		<br>
-		&copy; <time datetime="October 9, 2024">2024</time> Seongmin Lee
+		&copy; <time datetime="October 28, 2024">2024</time> Seongmin Lee
 	</div>
 	<div id="footer-right">
 		Seongmin Lee is a PhD student at Georgia Tech developing visual explanations and scalable algorithms for responsible AI.

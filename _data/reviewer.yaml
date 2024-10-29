@@ -1,3 +1,15 @@
+- venue: ACM CHI conference on Human Factors in Computing Systems
+  venue-shorthand: CHI
+  years:
+    - year: 2025
+      url: https://chi2025.acm.org
+
+- venue: IEEE Pacific Visualization Conference
+  venue-shorthand: PacificVis
+  years:
+    - year: 2025
+      url: https://pacificvis2025.github.io/pages/index.html
+
 - venue: 7th Workshop on Visualization for AI Explainability
   venue-shorthand: VISxAI
   years:
