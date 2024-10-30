@@ -17,6 +17,7 @@ venue: Poster, IEEE Visualization Conference
 venue-shorthand: VIS
 year: 2024
 url: /papers/transformer-explainer
+demo: https://poloclub.github.io/transformer-explainer/
 pdf: https://arxiv.org/pdf/2408.04619
 recording: https://youtu.be/ECR4oAwocjs
 code: https://github.com/poloclub/transformer-explainer
