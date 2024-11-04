@@ -21,7 +21,7 @@ demo: https://poloclub.github.io/transformer-explainer/
 pdf: https://arxiv.org/pdf/2408.04619
 recording: https://youtu.be/ECR4oAwocjs
 code: https://github.com/poloclub/transformer-explainer
-code-star: 2.7k
+code-star: 3.1k
 award: Best Poster
 selected: false
 figure: /images/papers/24-transformer-explainer.png
