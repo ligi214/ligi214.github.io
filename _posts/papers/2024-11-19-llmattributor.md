@@ -13,9 +13,9 @@ authors:
   - Mansi Phute
   - Duen Horng (Polo) Chau
   - Minsuk Kahng
-venue: Poster, IEEE Visualization Conference
-venue-shorthand: VIS
-year: 2024
+venue: Demo, Annual AAAI Conference on Artificial Intelligence
+venue-shorthand: AAAI
+year: 2025
 url: /papers/llm-attributor
 pdf: https://arxiv.org/pdf/2404.01361
 recording: https://youtu.be/mIG2MDQKQxM

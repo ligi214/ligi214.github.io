@@ -20,7 +20,6 @@ authors:
 venue: Full Paper, IEEE Visualization and Visual Analytics
 venue-shorthand: VIS
 year: 2023
-location: Melbourne, Australia
 url: /papers/visgrader
 pdf: https://arxiv.org/pdf/2310.12347.pdf
 code: https://github.com/poloclub/visgrader

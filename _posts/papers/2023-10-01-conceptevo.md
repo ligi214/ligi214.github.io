@@ -20,8 +20,6 @@ venue:
   - Full Paper, ACM International Conference on Information and Knowledge Management
 venue-shorthand: 
   - CIKM
-location: 
-  - Birmingham, United Kingdom
 year: 
   - 2023
 url: /papers/conceptevo

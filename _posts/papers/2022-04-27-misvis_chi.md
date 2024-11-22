@@ -15,7 +15,6 @@ authors:
   - Duen Horng (Polo) Chau
 venue: Extended Abstracts on ACM Human Factors in Computing Systems
 venue-shorthand: CHI
-location: New Orleans, LA, USA
 year: 2022
 url: /papers/misvis_chi
 demo: https://poloclub.github.io/MisVis/

@@ -23,8 +23,6 @@ venue-shorthand:
   - VIS
 year: 
   - 2024
-location:
-  - Tampa, USA
 url: /papers/diffusion-explainer
 demo: https://poloclub.github.io/diffusion-explainer/
 pdf: https://browse.arxiv.org/pdf/2305.03509.pdf
