@@ -1,3 +1,7 @@
+- name: IEEE BigData Student Travel Award
+  description: "Selected as a recipient of the Student Travel Award."
+  year: "2024"
+
 - name: NeurIPS SoLaR Workshop Travel Fund Award
   description: "Selected as a recipient of the travel fund award of $1,800 for the NeurIPS SoLaR Workshop."
   year: "2024"

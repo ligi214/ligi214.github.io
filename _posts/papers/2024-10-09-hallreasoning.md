@@ -11,6 +11,7 @@ authors:
 venue: 38th Conference on Neural Information Processing Systems (NeurIPS 2024) Socially Responsible Language Modelling Research Workshop
 venue-shorthand: SoLaR
 year: 2024
+award: SoLaR Workshop Travel Fund Award
 url: /papers/hallreasoning
 pdf: https://arxiv.org/pdf/2411.09689
 type: conference
