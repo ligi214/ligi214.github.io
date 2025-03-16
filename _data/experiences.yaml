@@ -1,7 +1,9 @@
 - institution: JP Morgan Chase & Co.
   location: "New York, NY"
   position: Summer Associate, Research Teechnologies Program
-  mentors: Hsiang Hsu, Chun-Fu (Richard) Chen
+  mentors: 
+    - Hsiang Hsu
+    - Chun-Fu (Richard) Chen
   year: "May 2024 — Aug. 2024"
   type: industry
 
