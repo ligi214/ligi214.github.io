@@ -19,7 +19,7 @@
 
   <title>
     
-      Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion — Seongmin Lee
+      Probing LLM Hallucination from Within: Perturbation-Driven Approach via Internal Knowledge — Seongmin Lee
     
   </title>
 
@@ -74,16 +74,12 @@
     <main>
       <div id="paper-title-wrapper" class="l-screen">
 
-	<h1>Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion</h1>
+	<h1>Probing LLM Hallucination from Within: Perturbation-Driven Approach via Internal Knowledge</h1>
 
 	<div id="venue-bar">
 		<div id="venue">
 			
-				
-					
-					Short Paper, IEEE Visualization Conference (VIS), 2024
-					
-				
+			ArXiv (ArXiv), 2025
 			
 		</div>
 		
@@ -112,97 +108,25 @@
             <div class="author">
                 
 
-    <!-- <a href="https://www.bhoov.com/"> -->
-        <img src="/images/people/benjamin-hoover.jpeg" class="author-image">
+    <!-- <a href="https://hsianghsu.github.io"> -->
+        <img src="/images/people/hsiang-hsu.jpg" class="author-image">
     <!-- </a> -->
 
 
                 
-<a href="https://www.bhoov.com/">Benjamin Hoover</a>
+<a href="https://hsianghsu.github.io">Hsiang Hsu</a>
             </div>
         
             <div class="author">
                 
 
-    <!-- <a href="http://hendrik.strobelt.com"> -->
-        <img src="/images/people/hendrik-strobelt.png" class="author-image">
+    <!-- <a href=""> -->
+        <img src="/images/people/person.png" class="author-image">
     <!-- </a> -->
 
 
                 
-<a href="http://hendrik.strobelt.com">Hendrik Strobelt</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://zijie.wang/"> -->
-        <img src="/images/people/zijie-j-wang.jpg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://zijie.wang/">Zijie J. Wang</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://shengyun-peng.github.io/"> -->
-        <img src="/images/people/shengyun-peng.jpeg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://shengyun-peng.github.io/">ShengYun Peng</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://www.austinpwright.com/"> -->
-        <img src="/images/people/austin-p-wright.jpg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://www.austinpwright.com/">Austin P. Wright</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://www.linkedin.com/in/kevinyli/"> -->
-        <img src="/images/people/kevin-li.jpeg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://www.linkedin.com/in/kevinyli/">Kevin Li</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://haekyu.com"> -->
-        <img src="/images/people/haekyu-park.jpeg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://haekyu.com">Haekyu Park</a>
-            </div>
-        
-            <div class="author">
-                
-
-    <!-- <a href="https://alexanderyang.me/"> -->
-        <img src="/images/people/haoyang-yang.jpeg" class="author-image">
-    <!-- </a> -->
-
-
-                
-<a href="https://alexanderyang.me/">Haoyang Yang</a>
+Chun-Fu Chen
             </div>
         
             <div class="author">
@@ -227,17 +151,13 @@
 			
 		
 			
-			  <a href="/papers/diffusion-explainer"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			  <a href="/papers/llm-hallucination-probing"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
 			
 		
 			
-			  <a href="https://poloclub.github.io/diffusion-explainer/"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>
-			
 		
 			
-			  <a href="https://browse.arxiv.org/pdf/2305.03509.pdf"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
-			
-		
+			  <a href="https://arxiv.org/pdf/2411.09689"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
 			
 		
 			
@@ -247,17 +167,13 @@
 			
 		
 			
-			  <a href="https://www.youtube.com/watch?v=Zg4gxdIWDds"><div><i class="fas fa-video" aria-hidden="true"></i> Recording</div></a>
-			
 		
 			
 		
 			
-			  <a href="/papers/23-diffusion-explainer-poster.pdf"><div><i class="fas fa-image" aria-hidden="true"></i> Poster</div></a>
-			
 		
 			
-			  <a href="https://github.com/poloclub/diffusion-explainer"><div><i class="fas fa-code" aria-hidden="true"></i> Code</div></a>
+		
 			
 		
 			
@@ -272,12 +188,12 @@
 </div>
 
 <h2>Abstract</h2>
-<div><p>Diffusion-based generative models’ impressive ability to create convincing images has captured global attention. However, their complex internal structures and operations often make them difficult for non-experts to understand. We present Diffusion Explainer, the first interactive visualization tool that explains how Stable Diffusion transforms text prompts into images. Diffusion Explainer tightly integrates a visual overview of Stable Diffusion’s complex components with detailed explanations of their underlying operations, enabling users to fluidly transition between multiple levels of abstraction through animations and interactive elements. By comparing the evolutions of image representations guided by two related text prompts over refinement timesteps, users can discover the impact of prompts on image generation. Diffusion Explainer runs locally in users’ web browsers without the need for installation or specialized hardware, broadening the public’s education access to modern AI techniques. Our open-sourced tool is available at: https://poloclub.github.io/diffusion-explainer/. A video demo is available at https://youtu.be/Zg4gxdIWDds.</p>
+<div><p>LLM hallucination, where unfaithful text is generated, presents a critical challenge for LLMs’ practical applications. Current detection methods often resort to external knowledge, LLM fine-tuning, or supervised training with large hallucination-labeled datasets. Moreover, these approaches do not distinguish between different types of hallucinations, which is crucial for enhancing detection performance. To address such limitations, we introduce hallucination probing, a new task that classifies LLM-generated text into three categories: aligned, misaligned, and fabricated. Driven by our novel discovery that perturbing key entities in prompts affects LLM’s generation of these three types of text differently, we propose SHINE, a novel hallucination probing method that does not require external knowledge, supervised training, or LLM fine-tuning. SHINE is effective in hallucination probing across three modern LLMs, and achieves state-of-the-art performance in hallucination detection, outperforming seven competing methods across four datasets and four LLMs, underscoring the importance of probing for accurate detection.</p>
 </div>
 
 
 <figure class="l-text">
-    <img class="single" src="/images/papers/23-diffusion-explainer-short.gif">
+    <img class="single" src="/images/papers/25-llm-hallucination-probing.png">
     <figcaption class="single"></figcaption>
 </figure>
 
@@ -288,11 +204,12 @@
 	<div class="highlight">
 		<pre>
 			
-@article{lee2023diffusion,
-  title={Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion},
-  author={Lee, Seongmin and Hoover, Benjamin and Strobelt, Hendrik and Wang, Zijie J and Peng, ShengYun and Wright, Austin and Li, Kevin and Park, Haekyu and Yang, Haoyang and Chau, Duen Horng},
-  journal={arXiv preprint arXiv:2305.03509},
-  year={2023}
+@article{lee2025probing,
+  title={Probing LLM Hallucination from Within: Perturbation-Driven Approach via Internal Knowledge},
+  author={Seongmin Lee and Hsiang Hsu and Chun-Fu Chen and and Duen Horng Chau},
+  journal={arXiv preprint arXiv:2411.09689},
+  year={2025},
+  url={https://arxiv.org/abs/2411.09689}, 
 }
 		</pre>
 	</div>
