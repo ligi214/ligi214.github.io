@@ -22,7 +22,7 @@ I design and develop
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with researchers and developers at JP Morgan Chase & Co., Cisco Systems, Google, IBM Research, ADP, and AVAST Software.
+I have collaborated with researchers and developers at Adobe, Google, JP Morgan Chase & Co., Cisco Systems, IBM Research, ADP, and AVAST Software.
 </div>
 
 <div class="cv-spacer"></div>
