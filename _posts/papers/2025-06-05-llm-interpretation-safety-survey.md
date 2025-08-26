@@ -11,8 +11,8 @@ authors:
   - ShengYun Peng
   - Mansi Phute
   - Duen Horng (Polo) Chau
-venue: ArXiv
-venue-shorthand: ArXiv
+venue: Main, Conference on Empirical Methods in Natural Language Processing
+venue-shorthand: EMNLP
 year: 2025
 url: /papers/llm-interpretation-safety-survey
 pdf: https://arxiv.org/pdf/2506.05451
